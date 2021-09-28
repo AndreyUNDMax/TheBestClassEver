@@ -63,8 +63,22 @@ body{
 	width: 50%;
 	height: 50%;
 	margin-left: 30px;
-	pointer-events: none;
 	
+}
+[class^="header__NavIMG__"]:hover{
+	width: 70%;
+	height: 70%;
+	margin-left: 30px;
+}
+.activeNav{
+	width: 70%;
+	height: 70%;
+	margin-left: 30px;
+}
+.activeNav: hover{
+	width: 70%;
+	height: 70%;
+	margin-left: 30px;
 }
 
 
@@ -118,4 +132,20 @@ body{
 .new__videoInput{
 	width: 100%;
 	height: 100%;
+}
+.footer__row{
+	display: flex;
+}
+.footer__left{
+	width: 50%;
+	overflow: hidden;
+}
+.footer__right{
+	width: 50%;
+	overflow: hidden;
+}
+.footer__title{
+	text-align: center;
+	font-size: 32px;
+	font-family: "sans-serif;";
 }
