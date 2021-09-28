@@ -58,6 +58,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-repeat: no-repeat;
 }
 [class^="header__NavIMG__"]{
 	width: 50%;
@@ -66,21 +67,10 @@ body{
 	
 }
 [class^="header__NavIMG__"]:hover{
-	width: 70%;
-	height: 70%;
+	width: 12%;
+	height: 80%;
 	margin-left: 30px;
 }
-.activeNav{
-	width: 70%;
-	height: 70%;
-	margin-left: 30px;
-}
-.activeNav: hover{
-	width: 70%;
-	height: 70%;
-	margin-left: 30px;
-}
-
 
 .header__NavIMG__home{
 	background-image: url(mainDesign/header/home.png);
@@ -148,4 +138,46 @@ body{
 	text-align: center;
 	font-size: 32px;
 	font-family: "sans-serif;";
+}
+.c-tion__title{
+	text-align: center;
+	font-size: 48px;
+	margin: 0 100px
+
+}
+.c-tion__row{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.c-tion__prod{
+	flex: 1 0 auto;
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: space-around;
+	max-width: 80%;
+}
+.c-tion__abc{
+	display: flex;
+	flex-direction: column;
+}
+.c-tion__abc p{
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+.production{
+	margin: 20px 20px;
+	border:  solid black 2px;
+	width: 350px;
+	height: 425px;
+	text-align: center;
+}
+.prod__photo{
+	width: 280px;
+	height: 500px;
+	overflow: hidden;
+	margin: 20px auto;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
