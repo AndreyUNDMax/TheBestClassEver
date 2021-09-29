@@ -206,16 +206,19 @@ body{
 	max-width: 80%;
 }
 .c-tion__abc{
-  background-color: #2A2B2A;
+	max-width: 100px;
   position: fixed;
   left: 80%;
   display: flex;
-  flex-direction: column;
   border: 4px solid black;
   border-radius: 30px;
   flex-wrap: wrap;
+  max-height: 60vh;
+
+  background-color: #2A2B2A;
 }
 .c-tion__abc p{
+
 	margin: 0 auto;
 	text-align: center;
 	padding: 10px;
@@ -231,29 +234,34 @@ body{
     justify-content: space-between;
 }
 .prod__photo{
-	width: 280px;
-	height: 500px;
+	width: 100%;
+	height: 375px;
 	overflow: hidden;
-	margin: 20px auto;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
+	border-bottom: solid black 2px;
 }
 .pr__row{
 	display: flex;
+	flex: 1 0 auto;
 }
 .pr__left{
+	height: 100%;
     width: 50%;
 	overflow: hidden;
 	font-size: 20px;
 	flex: 1 0 auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 .pr__right{
 	width: 20%;
+	height: 100%;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: green;
-	border-top: solid black 2px;
 	border-left: solid black 2px;
 	background-image: url(mainDesign/basket.png);
 }
