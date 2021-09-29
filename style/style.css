@@ -203,7 +203,7 @@ body{
 	display: flex;
 	flex-wrap:  wrap;
 	justify-content: space-around;
-	max-width: 80%;
+	max-width: 90%;
 }
 .c-tion__abc{
 	max-width: 100px;
@@ -232,6 +232,7 @@ body{
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 2px 2px 2px black,-1px -1px 2px black;
 }
 .prod__photo{
 	width: 100%;
@@ -254,6 +255,7 @@ body{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	padding: 10px;
 }
 .pr__right{
 	width: 20%;
