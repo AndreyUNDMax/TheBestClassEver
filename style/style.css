@@ -71,7 +71,25 @@ body{
 	height: 80%;
 	margin-left: 30px;
 }
-
+.pr__txt{
+    font-weight: bold;
+    font-size: 15px;
+}
+.pr__price{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.pr__buy{
+    margin-top: 15px;
+    padding: 15px;
+    background-color: green;
+    color: aliceblue;
+    font-size: 30px;
+    border-top: 3px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 .header__NavIMG__home{
 	background-image: url(mainDesign/header/home.png);
 	background-position: center;
@@ -197,12 +215,15 @@ body{
 	text-align: center;
 	padding: 10px;
 }
-.production{
+.pr{
 	margin: 20px 20px;
 	border:  solid black 2px;
 	width: 350px;
 	height: 425px;
 	text-align: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .prod__photo{
 	width: 280px;
@@ -211,4 +232,22 @@ body{
 	margin: 20px auto;
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+.pr__row{
+	display: flex;
+}
+.pr__left{
+    width: 50%;
+	overflow: hidden;
+	font-size: 20px;
+}
+.pr__right{
+	width: 50%;
+	overflow: hidden;
+}
+.pr_ph{
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	float: right;
 }
