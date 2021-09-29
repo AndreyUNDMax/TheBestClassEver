@@ -129,6 +129,9 @@ body{
   color: white;
   font-size: 36px;
 }
+.new{
+	overflow: hidden;
+}
 .new__title{
 	text-align: center;
 	font-size: 48px;
@@ -289,6 +292,10 @@ body{
 		height: 267px;
 
 	}
+	.new__title{
+		font-size: 26px;
+		margin:  0 15px;
+	}
 }
 @media(max-width: 768px){
 	.header__Nav{
@@ -318,6 +325,34 @@ body{
 	}
 	.prod__photo{
 		height: 502px;
+	}
+	.new__video{
+		width: 470px;
+		height: 267px;
+
+	}
+	.new__title{
+		font-size: 26px;
+		margin:  0 15px;
+	}
+	.footer__title{
+		font-size: 24px;
+	}
+	.lcontacts{
+		font-size: 16px;
+	}
+	.footer__left{
+		font-size: 14px;
+	}
+	.footer__info{
+		font-size: 17px;
+	}
+	.links__row{
+		flex-direction: column;
+	}
+	.links__QR{
+		text-align: left;
+		
 	}
 
 }
