@@ -273,6 +273,23 @@ body{
 	width: 50px;
 	float: right;
 }
+@media(max-width:480px){
+	.container{
+		max-width: 478px;
+	}
+	.pr{
+		width: 470px;
+	height: 570px;
+	}
+	.prod__photo{
+		height: 502px;
+	}
+	.new__video{
+		width: 476px;
+		height: 267px;
+
+	}
+}
 @media(max-width: 768px){
 	.header__Nav{
 		background-image: none;
@@ -290,6 +307,19 @@ body{
 	.header__Nav{
 		background-image: none;
 	}
+}
+@media(min-width:480px){
+	.container{
+		max-width: 478px;
+	}
+	.pr{
+		width: 470px;
+	height: 570px;
+	}
+	.prod__photo{
+		height: 502px;
+	}
+
 }
 @media(min-width: 768px){
 	.container{
