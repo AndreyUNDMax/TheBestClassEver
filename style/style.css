@@ -200,13 +200,13 @@ body{
 .c-tion__row{
 	margin-top: 20px;
 	display: flex;
-	justify-content: space-between;
+	
 }
 .c-tion__prod{
 	flex: 1 0 auto;
 	display: flex;
 	flex-wrap:  wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	width: 80%;
 }
 .c-tion__abc{
@@ -225,6 +225,10 @@ body{
 	margin: 0 auto;
 	text-align: center;
 	padding: 10px;
+}
+.c-tion__abc a{
+	color: white;
+	font-weight: bold;
 }
 .pr{
 	margin: 20px 1px;
@@ -269,12 +273,59 @@ body{
 	background-color: green;
 	border-left: solid black 2px;
 	background-image: url(mainDesign/basket.png);
+
 }
-.pr_ph{
+.pr__ph{
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 50px;
 	float: right;
+}
+@media(max-width:400px){
+.container{
+		max-width: 375px;
+	}
+	.lcontacts{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.footer__left{
+		margin: 0 30px;
+		font-size: 14px;
+	}
+	.footer__title{
+		font-size: 20px;
+		text-align: left;
+	}
+	}
+	.links__QR{
+		text-align: left;
+	}
+		.QR{
+		width: 80px;
+	}
+	.links__row{
+		display: inherit;
+	}
+	.new__title{
+		margin: 0 20px;
+		font-size: 24px;
+	}
+	.pr{
+		width: 350px;
+		max-height: 400px;
+	}
+	.prod__photo{
+		max-height: 320px;
+	}
+	.c-tion__title{
+		font-size: 26px;
+		margin: 0 50px;
+	}
+	.new__video{
+		max-width: 365px;
+	}
+
 }
 @media(max-width:480px){
 	.container{
@@ -305,7 +356,7 @@ body{
 		background-image: none;
 	}
 	.footer__title{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.lcontacts{
 		font-size: 16px;
