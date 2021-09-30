@@ -327,9 +327,11 @@ body{
 		font-size: 26px;
 		margin:  0 15px;
 	}
+<<<<<<< HEAD
+<<<<<<< HEAD
 	[class^="header__NavIMG__"]{
 		width: 25px;
-	}
+=======
 .footer__title{
 		font-size: 24px;
 	}
@@ -386,7 +388,11 @@ body{
 	}
 	.prod__photo{
 		height: 481px;
+>>>>>>> d8c137f1ede2383ed59a67d83e8eb7bb00996a35
 	}
+=======
+>>>>>>> parent of b33e3fa (Я рыгнул)
+}
 @media(max-width: 768px){
 	.header__Nav{
 		background-image: none;
@@ -487,9 +493,13 @@ body{
 	.container{
 		max-width: 1680px;
 	}
+<<<<<<< HEAD
 	.new__video{
 		width: 1650px;
 		height: 928px;
 	}
 }
 }
+=======
+}
+>>>>>>> parent of b33e3fa (Я рыгнул)
