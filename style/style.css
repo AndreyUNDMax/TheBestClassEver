@@ -123,7 +123,6 @@ body{
 	box-shadow: 0px -7px 10px black;
 }
 .content__row{
-<<<<<<< Updated upstream
   background-color: #2A2B2A;
   padding: 20px 20px 100px;
   box-shadow: 7px 0px 10px black,-7px 0px 10px black;
@@ -132,13 +131,11 @@ body{
 }
 .new{
 	overflow: hidden;
-=======
 	background-color: #2A2B2A;
 	padding: 20px 20px 100px;
 	box-shadow: 7px 0px 10px black,-7px 0px 10px black;
 	color: white;
 	font-size: 36px;
->>>>>>> Stashed changes
 }
 .new__title{
 	text-align: center;
@@ -217,15 +214,11 @@ body{
 	width: 100%;
 }
 .c-tion__abc{
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 	display: grid;
    grid-template-rows: repeat(7, 1fr);
    grid-template-columns: repeat(2, 1fr);
 	overflow: hidden;
-=======
 	max-width: 100px;
->>>>>>> parent of b33e3fa (Я рыгнул)
   position: fixed;
   left: 80%;
   display: flex;
@@ -233,8 +226,7 @@ body{
   border-radius: 30px;
 <<<<<<< HEAD
   max-height: 70vh;
-  background-color: rgba(42, 43, 42, 0.5);;
-=======
+  background-color: rgba(42, 43, 42, 0.5);
 	background-color: #2A2B2A;
 	position: fixed;
 	left: 80%;
@@ -243,8 +235,6 @@ body{
 	border: 4px solid black;
 	border-radius: 30px;
 	flex-wrap: wrap;
->>>>>>> Stashed changes
-=======
   flex-wrap: wrap;
   max-height: 60vh;
 
