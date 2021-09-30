@@ -296,8 +296,67 @@ body{
 		font-size: 26px;
 		margin:  0 15px;
 	}
+<<<<<<< HEAD
 	[class^="header__NavIMG__"]{
 		width: 25px;
+=======
+.footer__title{
+		font-size: 24px;
+	}
+	.lcontacts{
+		font-size: 16px;
+	}
+	.footer__left{
+		font-size: 14px;
+	}
+	.footer__info{
+		font-size: 17px;
+	}
+	.links__row{
+		flex-direction: column;
+	}
+	.links__QR{
+		text-align: left;
+		
+	}
+
+}
+@media(min-width: 768px){
+	.container{
+		max-width: 750px;
+	}
+	.pr{
+		width: 470px;
+	height: 570px;
+	}
+	.prod__photo{
+		height: 502px;
+	}
+
+}
+@media(min-width: 1100px){
+	.container{
+		max-width: 1024px;
+	}
+	.pr{
+		width: 400px;
+	height: 485px;
+	}
+	.prod__photo{
+		height: 428px;
+	}
+}
+@media(min-width: 1920px){
+	.container{
+		max-width: 1910px;
+	}
+	.pr{
+		width: 450px;
+	height: 546px;
+	}
+	.prod__photo{
+		height: 481px;
+>>>>>>> d8c137f1ede2383ed59a67d83e8eb7bb00996a35
 	}
 }
 @media(max-width: 768px){
@@ -427,7 +486,7 @@ body{
 		max-width: 750px;
 	}
 	.pr{
-		width: 470px;
+	width: 470px;
 	height: 570px;
 	}
 	.prod__photo{
@@ -486,4 +545,5 @@ body{
 		width: 1650px;
 		height: 928px;
 	}
+}
 }
