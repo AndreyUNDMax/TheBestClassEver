@@ -60,8 +60,8 @@ body{
 	background-repeat: no-repeat;
 }
 [class^="header__NavIMG__"]{
-	width: 50%;
-	height: 50%;
+	width: 12%;
+	height: 80%;
 	margin-left: 30px;
 	
 }
@@ -121,6 +121,7 @@ body{
 	border-top: #071F11 solid 8px;
 	align-self: flex-end;
 	box-shadow: 0px -7px 10px black;
+	padding-bottom: 100px;
 }
 .content__row{
   background-color: #2A2B2A;
@@ -131,11 +132,6 @@ body{
 }
 .new{
 	overflow: hidden;
-	background-color: #2A2B2A;
-	padding: 20px 20px 100px;
-	box-shadow: 7px 0px 10px black,-7px 0px 10px black;
-	color: white;
-	font-size: 36px;
 }
 .new__title{
 	text-align: center;
@@ -210,36 +206,19 @@ body{
 	flex: 1 0 auto;
 	display: flex;
 	flex-wrap:  wrap;
-	justify-content: space-around;
-	width: 100%;
+	justify-content: space-between;
+	width: 80%;
 }
 .c-tion__abc{
 	display: grid;
    grid-template-rows: repeat(7, 1fr);
    grid-template-columns: repeat(2, 1fr);
 	overflow: hidden;
-	max-width: 100px;
   position: fixed;
-  left: 80%;
-  display: flex;
   border: 4px solid black;
   border-radius: 30px;
-<<<<<<< HEAD
   max-height: 70vh;
-  background-color: rgba(42, 43, 42, 0.5);
-	background-color: #2A2B2A;
-	position: fixed;
-	left: 80%;
-	display: flex;
-	flex-direction: column;
-	border: 4px solid black;
-	border-radius: 30px;
-	flex-wrap: wrap;
-  flex-wrap: wrap;
-  max-height: 60vh;
-
-  background-color: #2A2B2A;
->>>>>>> parent of b33e3fa (Я рыгнул)
+  background-color: rgba(42, 43, 42, 0.5);;
 }
 .c-tion__abc p{
 
@@ -248,7 +227,7 @@ body{
 	padding: 10px;
 }
 .pr{
-	margin: 20px 20px;
+	margin: 20px 1px;
 	border:  solid black 2px;
 	width: 350px;
 	height: 425px;
@@ -320,63 +299,7 @@ body{
 	[class^="header__NavIMG__"]{
 		width: 25px;
 	}
-.footer__title{
-		font-size: 24px;
-	}
-	.lcontacts{
-		font-size: 16px;
-	}
-	.footer__left{
-		font-size: 14px;
-	}
-	.footer__info{
-		font-size: 17px;
-	}
-	.links__row{
-		flex-direction: column;
-	}
-	.links__QR{
-		text-align: left;
-		
-	}
-
 }
-@media(min-width: 768px){
-	.container{
-		max-width: 750px;
-	}
-	.pr{
-		width: 470px;
-	height: 570px;
-	}
-	.prod__photo{
-		height: 502px;
-	}
-
-}
-@media(min-width: 1100px){
-	.container{
-		max-width: 1024px;
-	}
-	.pr{
-		width: 400px;
-	height: 485px;
-	}
-	.prod__photo{
-		height: 428px;
-	}
-}
-@media(min-width: 1920px){
-	.container{
-		max-width: 1910px;
-	}
-	.pr{
-		width: 450px;
-	height: 546px;
-	}
-	.prod__photo{
-		height: 481px;
-	}
 @media(max-width: 768px){
 	.header__Nav{
 		background-image: none;
@@ -394,6 +317,69 @@ body{
 	.header__Nav{
 		background-image: none;
 	}
+}
+@media(min-width:410px){
+	.container{
+		max-width: 478px;
+	}
+	.c-tion__title{
+		font-size: 45px;
+		margin: 0 20px;
+	}
+	.pr{
+		width: 380px;
+	height: 460px;
+	}
+	.prod__photo{
+		height: 502px;
+	}
+	.new__video{
+		width: 470px;
+		height: 267px;
+
+	}
+	.new__title{
+		font-size: 26px;
+		margin:  0 15px;
+	}
+	.footer__title{
+		font-size: 24px;
+		text-align: left;
+	}
+	.lcontacts{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.footer__left{
+		margin: 0 30px;
+		font-size: 14px;
+	}
+	.footer__info{
+		font-size: 17px;
+	}
+	.links__row{
+		flex-direction: column;
+	}
+	.links__QR{
+		text-align: left;
+
+	}
+	.QR{
+		width: 80px;
+	}
+	.footer{
+		padding: 0 20px;
+	}
+	.new__video{
+		width: 380px;
+		height: 216px;
+	}
+	.c-tion__abc{
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: ;
+
+	}
+
 }
 @media(min-width:480px){
 	.container{
@@ -432,7 +418,7 @@ body{
 	}
 	.links__QR{
 		text-align: left;
-		
+
 	}
 
 }
@@ -441,12 +427,24 @@ body{
 		max-width: 750px;
 	}
 	.pr{
-	width: 470px;
+		width: 470px;
 	height: 570px;
 	}
 	.prod__photo{
 		height: 502px;
 	}
+	.links__row{
+		flex-direction: row;
+	}
+	.links__QR{
+		text-align: right;
+		
+	}
+	.new__video{
+		width:740px;
+		height: 416px;
+	}
+
 
 }
 @media(min-width: 1100px){
@@ -460,6 +458,10 @@ body{
 	.prod__photo{
 		height: 428px;
 	}
+	.new__video{
+		width: 995px;
+		height: 560px;
+	}
 }
 @media(min-width: 1920px){
 	.container{
@@ -472,6 +474,9 @@ body{
 	.prod__photo{
 		height: 481px;
 	}
+	.new__video{
+		width: 1900px;
+	}
 }
 @media(min-width: 1700px){
 	.container{
@@ -481,5 +486,4 @@ body{
 		width: 1650px;
 		height: 928px;
 	}
-}
 }
