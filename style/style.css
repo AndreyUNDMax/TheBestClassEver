@@ -60,8 +60,8 @@ body{
 	background-repeat: no-repeat;
 }
 [class^="header__NavIMG__"]{
-	width: 12%;
-	height: 80%;
+	width: 50%;
+	height: 50%;
 	margin-left: 30px;
 	
 }
@@ -121,7 +121,6 @@ body{
 	border-top: #071F11 solid 8px;
 	align-self: flex-end;
 	box-shadow: 0px -7px 10px black;
-	
 }
 .content__row{
 <<<<<<< Updated upstream
@@ -214,18 +213,25 @@ body{
 	flex: 1 0 auto;
 	display: flex;
 	flex-wrap:  wrap;
-	justify-content: space-between;
-	width: 80%;
+	justify-content: space-around;
+	width: 100%;
 }
 .c-tion__abc{
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 	display: grid;
    grid-template-rows: repeat(7, 1fr);
    grid-template-columns: repeat(2, 1fr);
 	overflow: hidden;
+=======
+	max-width: 100px;
+>>>>>>> parent of b33e3fa (Я рыгнул)
   position: fixed;
+  left: 80%;
+  display: flex;
   border: 4px solid black;
   border-radius: 30px;
+<<<<<<< HEAD
   max-height: 70vh;
   background-color: rgba(42, 43, 42, 0.5);;
 =======
@@ -238,6 +244,12 @@ body{
 	border-radius: 30px;
 	flex-wrap: wrap;
 >>>>>>> Stashed changes
+=======
+  flex-wrap: wrap;
+  max-height: 60vh;
+
+  background-color: #2A2B2A;
+>>>>>>> parent of b33e3fa (Я рыгнул)
 }
 .c-tion__abc p{
 
@@ -246,7 +258,7 @@ body{
 	padding: 10px;
 }
 .pr{
-	margin: 20px 1px;
+	margin: 20px 20px;
 	border:  solid black 2px;
 	width: 350px;
 	height: 425px;
@@ -316,6 +328,7 @@ body{
 		margin:  0 15px;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	[class^="header__NavIMG__"]{
 		width: 25px;
 =======
@@ -377,6 +390,8 @@ body{
 		height: 481px;
 >>>>>>> d8c137f1ede2383ed59a67d83e8eb7bb00996a35
 	}
+=======
+>>>>>>> parent of b33e3fa (Я рыгнул)
 }
 @media(max-width: 768px){
 	.header__Nav{
@@ -395,69 +410,6 @@ body{
 	.header__Nav{
 		background-image: none;
 	}
-}
-@media(min-width:410px){
-	.container{
-		max-width: 478px;
-	}
-	.c-tion__title{
-		font-size: 45px;
-		margin: 0 20px;
-	}
-	.pr{
-		width: 380px;
-	height: 460px;
-	}
-	.prod__photo{
-		height: 502px;
-	}
-	.new__video{
-		width: 470px;
-		height: 267px;
-
-	}
-	.new__title{
-		font-size: 26px;
-		margin:  0 15px;
-	}
-	.footer__title{
-		font-size: 24px;
-		text-align: left;
-	}
-	.lcontacts{
-		font-size: 16px;
-		line-height: 20px;
-	}
-	.footer__left{
-		margin: 0 30px;
-		font-size: 14px;
-	}
-	.footer__info{
-		font-size: 17px;
-	}
-	.links__row{
-		flex-direction: column;
-	}
-	.links__QR{
-		text-align: left;
-
-	}
-	.QR{
-		width: 80px;
-	}
-	.footer{
-		padding: 0 20px;
-	}
-	.new__video{
-		width: 380px;
-		height: 216px;
-	}
-	.c-tion__abc{
-	grid-template-columns: repeat(1, 1fr);
-	grid-template-rows: ;
-
-	}
-
 }
 @media(min-width:480px){
 	.container{
@@ -496,7 +448,7 @@ body{
 	}
 	.links__QR{
 		text-align: left;
-
+		
 	}
 
 }
@@ -511,18 +463,6 @@ body{
 	.prod__photo{
 		height: 502px;
 	}
-	.links__row{
-		flex-direction: row;
-	}
-	.links__QR{
-		text-align: right;
-		
-	}
-	.new__video{
-		width:740px;
-		height: 416px;
-	}
-
 
 }
 @media(min-width: 1100px){
@@ -536,10 +476,6 @@ body{
 	.prod__photo{
 		height: 428px;
 	}
-	.new__video{
-		width: 995px;
-		height: 560px;
-	}
 }
 @media(min-width: 1920px){
 	.container{
@@ -552,17 +488,18 @@ body{
 	.prod__photo{
 		height: 481px;
 	}
-	.new__video{
-		width: 1900px;
-	}
 }
 @media(min-width: 1700px){
 	.container{
 		max-width: 1680px;
 	}
+<<<<<<< HEAD
 	.new__video{
 		width: 1650px;
 		height: 928px;
 	}
 }
 }
+=======
+}
+>>>>>>> parent of b33e3fa (Я рыгнул)
